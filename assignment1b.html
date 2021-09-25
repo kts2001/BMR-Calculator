@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!--Created by Kareem Zahra - COMP 125 Student ID 301177518 -->
+<head>
+    <meta charset="utf-8" />
+    <title>BMR calculator</title>
+
+    <link href="assignment.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <h1>BMR CALCULATOR METRIC</h1>
+
+        <nav>
+            <a href="assignment1.html">Imperial</a>
+
+        </nav>
+        <p>
+            Gender:&nbsp;
+            <select id="Gender" name="Gender" style="width: 104px">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </p>
+
+
+
+        <label for="Age">Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="Number" id="age" name="age" /></label>
+        <p>Your Height :</p>
+        <label for="Height">In Cm&nbsp;&nbsp;&nbsp; &nbsp;<input type="Number" id="height" name="Height" /></label>
+        <p>Your Weight:</p>
+        <label for="Weight">In Kg&nbsp;&nbsp; &nbsp;<input type="Number" id="weight" name="weight" /></label>
+
+        <p>Please select your activity level:</p>&nbsp;&nbsp;&nbsp;
+        <input type="radio" value="1.2" name="activity1" id="activity1"><span class="white">I am sedentary (little or no exercise)</span><br>&nbsp;&nbsp;&nbsp;
+        <input type="radio" value="1.375" name="activity2" id="activity2"><span class="white">I am lightly active (light exercise or sports 1-3 days per week)</span><br>&nbsp;&nbsp;&nbsp;
+        <input type="radio" value="1.55" name="activity3" id="activity3"><span class="white">I am moderately active (moderate exercise or sports 3-5 days per week)</span><br>&nbsp;&nbsp;&nbsp;
+        <input type="radio" value="1.725" name="activity4" id="activity4"><span class="white">I am very active (hard exercise or sports 6-7 days per week)</span><br>&nbsp;&nbsp;&nbsp;
+        <input type="radio" value="1.9" name="activity5" id="activity5"><span class="white">I am super active(very hard exercise or sports and physical job or 2x training)</span><br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;<input type="button" id="submit" value="Calculate Your Basal Metabolic Rate" style="width: 327px" />
+        <br>
+        <br>
+        <br>
+    </div>
+    <script src="assignment1.js"></script>
+</body>
+</html>
