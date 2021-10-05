@@ -1,0 +1,23 @@
+{
+  "name": "bmr-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assignment1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kts2001/BMR-Calculator.git"
+  },
+  "author": "kareemzahra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kts2001/BMR-Calculator/issues"
+  },
+  "homepage": "https://github.com/kts2001/BMR-Calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}
